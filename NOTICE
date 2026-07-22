@@ -1,5 +1,5 @@
 lacert-crypto-esp32
-Copyright (c) 2025 NIkir0LL (https://github.com/NIkir0LL)
+Copyright (c) 2026 NIkir0LL (https://github.com/NIkir0LL)
 
 Licensed under the Apache License, Version 2.0.
 
@@ -8,3 +8,7 @@ this repository and are fetched by scripts/fetch-components.sh (see FIRMWARE_BUI
   - ML-KEM-1024 from PQClean (Public Domain / CC0)   github.com/PQClean/PQClean
   - BLAKE3 reference C implementation (CC0-1.0 / Apache-2.0)
                                                      github.com/BLAKE3-team/BLAKE3
+
+The optional Linux debug client (linux-debug/) links against OpenSSL
+(Apache-2.0) for its host-side crypto; OpenSSL is a system dependency and is
+not included in this repository.
