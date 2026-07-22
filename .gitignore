@@ -1,0 +1,13 @@
+# ESP-IDF build
+/build/
+sdkconfig
+sdkconfig.old
+
+# fetched third-party components (see README)
+/components/ml_kem/
+/components/blake3/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
